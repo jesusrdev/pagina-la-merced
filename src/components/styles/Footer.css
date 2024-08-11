@@ -1,0 +1,79 @@
+/** FOOTER */
+
+footer {
+
+  .footer {
+      padding: 30px 15%;
+
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 50px;
+
+      background-color: var(--cuarter-color);
+
+      .footer-information {
+
+
+          .logo {
+              width: 200px;
+          }
+
+          & p {
+              font-size: 1.1rem;
+              color: white;
+          }
+
+          .redes-sociales {
+
+              margin-top: 35px;
+              /* display: block; */
+
+          }
+          .redes {
+
+              
+              .red {
+                  cursor: pointer;
+                  width: 30px;
+                  margin: 10px 7%;
+              }
+              
+              .red:hover {
+                  color: white;
+              }
+          }
+      }
+      
+      .footer-menu {
+
+          & h5 {
+              font-size: 1.6rem;
+              color: white;
+          }
+          
+          min-width: fit-content;
+          
+          & a {
+              display: block;
+              font-size: 1.1rem;
+              text-decoration: none;
+              color: white;
+          }
+
+          & a:hover {
+              color: #aaa;
+          }
+
+      }
+      
+  }
+
+  .copyright {
+      margin: 30px 70px;
+      font-size: 1.3rem;
+      
+
+  }
+}
